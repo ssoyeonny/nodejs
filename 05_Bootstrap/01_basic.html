@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>My First Bootstrap Page <span class="badge badge-pill badge-danger">New</span></h1>
+    <p>Resize this responsive page to see the effect! <span class="spinner-border text-success"></span></p>
+    <hr>
+    <button type="button" class="btn btn-primary">&nbsp;확인&nbsp;</button>&nbsp;&nbsp;
+    <button type="button" class="btn btn-secondary">&nbsp;취소&nbsp;</button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <h3>List Group</h3>
+        <div class="list-group list-group-flush">
+          <a href="#" class="list-group-item list-group-item-action active">추가</a>
+          <a href="#" class="list-group-item list-group-item-action">조회</a>
+          <a href="#" class="list-group-item list-group-item-action">수정</a>
+        </div>
+      </div>
+      <div class="col-7">
+        <h3>테이블</h3>
+        <table class="table table-hover table-bordered">
+          <thead class="thead-light">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>프로그레스 바</h3>
+        <div class="progress" style="height:30px">
+          <div class="progress-bar" style="width:70%">70%</div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <h2>Alert Box</h2>
+        <div class="alert alert-success">
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+          <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+      </div>
+
+</body>
+
+</html>
